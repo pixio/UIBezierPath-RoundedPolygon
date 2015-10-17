@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'UIBezierPath-RoundedPolygon', :exclusive => true do
+  pod "UIBezierPath-RoundedPolygon", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "UIBezierPath-RoundedPolygon", :path => "../"
+
+  
+end

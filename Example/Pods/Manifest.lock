@@ -1,0 +1,14 @@
+PODS:
+  - UIBezierPath-RoundedPolygon (0.1.0)
+
+DEPENDENCIES:
+  - UIBezierPath-RoundedPolygon (from `../`)
+
+EXTERNAL SOURCES:
+  UIBezierPath-RoundedPolygon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIBezierPath-RoundedPolygon: bac0c12ab0e03e2909450305c2f55bfb8019209b
+
+COCOAPODS: 0.36.3

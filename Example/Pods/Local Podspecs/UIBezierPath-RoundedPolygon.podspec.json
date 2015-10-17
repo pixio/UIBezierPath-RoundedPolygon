@@ -1,0 +1,27 @@
+{
+  "name": "UIBezierPath-RoundedPolygon",
+  "version": "0.1.0",
+  "summary": "UIBezierPath-RoundedPolygon gives you rounded convex polygons.",
+  "description": "                       You can make all sorts of rounded-corner paths.\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/UIBezierPath-RoundedPolygon",
+  "license": "MIT",
+  "authors": {
+    "Daniel Blakemore": "DanBlakemore@gmail.com"
+  },
+  "source": {
+    "git": "git@git.pixio.com:ios-pods/uibezierpath-roundedpolygon.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "UIBezierPath-RoundedPolygon": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "UIKit"
+}
