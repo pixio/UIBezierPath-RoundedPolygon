@@ -7,598 +7,471 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E21EE78B77DFF9A182FB8C4 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D75533370BE96358AEA98E1 /* Pods-Tests-dummy.m */; };
-		14047CF356FBDD33756FBF32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34992B1FD1BF18AD55FCD3F0 /* Foundation.framework */; };
-		15C54CC916ECFB5B4EE9F5D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0F6B9C081CF50AC7C50925 /* UIKit.framework */; };
-		1C5AF9E921247D1A68116C36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34992B1FD1BF18AD55FCD3F0 /* Foundation.framework */; };
-		339399D343D36CD111F1F129 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34992B1FD1BF18AD55FCD3F0 /* Foundation.framework */; };
-		36C3CD6DECD6A679F6E79425 /* UIBezierPath+RoundedPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 41550612A3026149FE1A734A /* UIBezierPath+RoundedPolygon.h */; };
-		3C19330378A8549AC5079AB7 /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F27D2CCC3426D782459902 /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-dummy.m */; };
-		5BA9C8B8D280D6450CDB94CC /* UIBezierPath+RoundedPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = C8806D6AB8145A6BDA555626 /* UIBezierPath+RoundedPolygon.m */; };
-		5D0F6E5AEA88006702033EF7 /* UIBezierPath+RoundedPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = C8806D6AB8145A6BDA555626 /* UIBezierPath+RoundedPolygon.m */; };
-		A1822289A76F4B1051423379 /* UIBezierPath+RoundedPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 41550612A3026149FE1A734A /* UIBezierPath+RoundedPolygon.h */; };
-		BDC38335B008D48AC311FD49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0F6B9C081CF50AC7C50925 /* UIKit.framework */; };
-		C1AC2C1BB39A214AAEE3E9FD /* Pods-Tests-UIBezierPath-RoundedPolygon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1FC0E7617BFB28024E75E5 /* Pods-Tests-UIBezierPath-RoundedPolygon-dummy.m */; };
-		CDDED16BD1C82AAFF06D34DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34992B1FD1BF18AD55FCD3F0 /* Foundation.framework */; };
-		E22B035341039DB63436DF2F /* Pods-UIBezierPath-RoundedPolygon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74144F510158A1CE7C43DCE5 /* Pods-UIBezierPath-RoundedPolygon-dummy.m */; };
+		3CA3B80A757DFA43E0AFEA5EA022C2FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		50E35212CA589BB600D2A478C789D28A /* Pods-UIBezierPath-RoundedPolygon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6EC7A590ED24145316F8D54359365 /* Pods-UIBezierPath-RoundedPolygon-dummy.m */; };
+		6446C6C6B964A80856C2515B00518DA0 /* UIBezierPath+RoundedPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4272B9FDED588905C55F5473FF98D439 /* UIBezierPath+RoundedPolygon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78F345E0D2AD67F73690996F6D5F3188 /* UIBezierPath+RoundedPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 657631E8317EA8B77CC332DE5D6D9EBF /* UIBezierPath+RoundedPolygon.m */; };
+		7AA93A5E9126B1822E942A0B46CC2667 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EE15B1725F6C8B63C6732B7E6C2EC9 /* Pods-Tests-dummy.m */; };
+		8677EC7CF50A50288E6497FC2AAB763A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		9EFF22B0D35F694CD1241C164862AB09 /* UIBezierPath-RoundedPolygon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 411C7B5BBF9F5E0FFD81118F67ED1D09 /* UIBezierPath-RoundedPolygon-dummy.m */; };
+		AF27924A0C8B6355B65C4F826E147915 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		BDC7256A5F1138F242534D0B073AC025 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0451F5E3D6DC2ECA5ECCBB5F /* PBXContainerItemProxy */ = {
+		3ECF6E1C459B2A25BED8F53F09C93550 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DF679E3691956B3F88E7EAD3 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D3294FCDADF4BB93D7C9BE3F;
-			remoteInfo = "Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon";
+			remoteGlobalIDString = C43F0824D712754D565D42E578F56785;
+			remoteInfo = "UIBezierPath-RoundedPolygon";
 		};
-		4557D2379DB22B075B7CAEC6 /* PBXContainerItemProxy */ = {
+		773B25F26AF3BF26959CAD41EE6AFB66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DF679E3691956B3F88E7EAD3 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F3C0084F9C7D99CFDC0FBA3A;
-			remoteInfo = "Pods-Tests-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon";
-		};
-		51C2728422045CF50A7BFAED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DF679E3691956B3F88E7EAD3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F5AF636C0F6A78986E8F2B6B;
-			remoteInfo = "Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon";
-		};
-		9970A1631010BC215C166EEF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DF679E3691956B3F88E7EAD3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6CB9AA6BC5C780475A64E977;
-			remoteInfo = "Pods-Tests-UIBezierPath-RoundedPolygon";
+			remoteGlobalIDString = C43F0824D712754D565D42E578F56785;
+			remoteInfo = "UIBezierPath-RoundedPolygon";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06E2FA89BA01B4B2F4F00F40 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		07EE4FD62D2374ADCBAA78BF /* Pods-Tests-UIBezierPath-RoundedPolygon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-UIBezierPath-RoundedPolygon-prefix.pch"; sourceTree = "<group>"; };
-		0C737B7E356A2FD164C774D6 /* Pods-UIBezierPath-RoundedPolygon-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIBezierPath-RoundedPolygon-environment.h"; sourceTree = "<group>"; };
-		0D75533370BE96358AEA98E1 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		17B5AA4959A68AE021C1BBC4 /* Pods-UIBezierPath-RoundedPolygon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIBezierPath-RoundedPolygon.debug.xcconfig"; sourceTree = "<group>"; };
-		2C00B2EC7388D5BA627D85F3 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		34992B1FD1BF18AD55FCD3F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		362BBA5FE4F5A365EAEC906E /* libPods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A4ED5C48D62F2C14681C355 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		3F7759115AA167DF1D1F9F78 /* UIBezierPath-RoundedPolygon.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIBezierPath-RoundedPolygon.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		41550612A3026149FE1A734A /* UIBezierPath+RoundedPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+RoundedPolygon.h"; sourceTree = "<group>"; };
-		42DE415957409B10296FB2F5 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4F0F6B9C081CF50AC7C50925 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		62832EF0876CFED4695188A4 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6BF34F95E899AAD83D380D81 /* libPods-Tests-UIBezierPath-RoundedPolygon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-UIBezierPath-RoundedPolygon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		73F27D2CCC3426D782459902 /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-dummy.m"; path = "../Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon/Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-dummy.m"; sourceTree = "<group>"; };
-		74144F510158A1CE7C43DCE5 /* Pods-UIBezierPath-RoundedPolygon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIBezierPath-RoundedPolygon-dummy.m"; sourceTree = "<group>"; };
-		7AE61BB509A9A3F01718BF26 /* Pods-Tests-UIBezierPath-RoundedPolygon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-UIBezierPath-RoundedPolygon.xcconfig"; sourceTree = "<group>"; };
-		8E1D0359CF6625B72B9B7C6F /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon.xcconfig"; path = "../Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon/Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon.xcconfig"; sourceTree = "<group>"; };
-		9052A4941CD0A7545A94CF8D /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-Private.xcconfig"; path = "../Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon/Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-Private.xcconfig"; sourceTree = "<group>"; };
-		95A1AC3F4CF3BC1F18C7009E /* Pods-UIBezierPath-RoundedPolygon-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIBezierPath-RoundedPolygon-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A575DD6B74264BE0E803EE61 /* Pods-UIBezierPath-RoundedPolygon-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIBezierPath-RoundedPolygon-acknowledgements.plist"; sourceTree = "<group>"; };
-		AD1FC0E7617BFB28024E75E5 /* Pods-Tests-UIBezierPath-RoundedPolygon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-UIBezierPath-RoundedPolygon-dummy.m"; sourceTree = "<group>"; };
-		AD3C9D3425E4D98DFEF934BA /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBE7B5321DE48FF14FD52221 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		C12DA132C887C6DDF88646BB /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C8806D6AB8145A6BDA555626 /* UIBezierPath+RoundedPolygon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+RoundedPolygon.m"; sourceTree = "<group>"; };
-		CA47F40DD27172F9988C15CC /* Pods-UIBezierPath-RoundedPolygon-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIBezierPath-RoundedPolygon-resources.sh"; sourceTree = "<group>"; };
-		D43C2E1FF196A3F93C816B67 /* libPods-UIBezierPath-RoundedPolygon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIBezierPath-RoundedPolygon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCFE3132D8ED85D0BBAF571E /* Pods-UIBezierPath-RoundedPolygon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIBezierPath-RoundedPolygon.release.xcconfig"; sourceTree = "<group>"; };
-		E31E39E66494543E812110EF /* UIBezierPath-RoundedPolygon.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIBezierPath-RoundedPolygon.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3875044D9EE32F0D4E544CA /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-prefix.pch"; path = "../Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon/Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-prefix.pch"; sourceTree = "<group>"; };
-		F65C3AF4017FAE89239FA5B6 /* Pods-Tests-UIBezierPath-RoundedPolygon-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-UIBezierPath-RoundedPolygon-Private.xcconfig"; sourceTree = "<group>"; };
+		0E77F0680EBEF0947AEDE200CB78902A /* UIBezierPath-RoundedPolygon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIBezierPath-RoundedPolygon.xcconfig"; sourceTree = "<group>"; };
+		250F97BFBEC240C3FE28E463D4B2F374 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3022D28E29F621ACDB1C15BB02CE85A1 /* Pods-UIBezierPath-RoundedPolygon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIBezierPath-RoundedPolygon.release.xcconfig"; sourceTree = "<group>"; };
+		31EE15B1725F6C8B63C6732B7E6C2EC9 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		33A6EC7A590ED24145316F8D54359365 /* Pods-UIBezierPath-RoundedPolygon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIBezierPath-RoundedPolygon-dummy.m"; sourceTree = "<group>"; };
+		3514943027842633C9FDFBDFD488AC7A /* Pods-UIBezierPath-RoundedPolygon-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIBezierPath-RoundedPolygon-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B04D82ADAF989E93DF30CA8F63CFEAE /* Pods-UIBezierPath-RoundedPolygon-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIBezierPath-RoundedPolygon-resources.sh"; sourceTree = "<group>"; };
+		411C7B5BBF9F5E0FFD81118F67ED1D09 /* UIBezierPath-RoundedPolygon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath-RoundedPolygon-dummy.m"; sourceTree = "<group>"; };
+		4272B9FDED588905C55F5473FF98D439 /* UIBezierPath+RoundedPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+RoundedPolygon.h"; sourceTree = "<group>"; };
+		4733B44DD5CC2817C891B8210261C57B /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		53E8524258CA17D4F51F0AE8DA0FE90A /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57109E18655D0EE19F399DC5C369CCEE /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		657631E8317EA8B77CC332DE5D6D9EBF /* UIBezierPath+RoundedPolygon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+RoundedPolygon.m"; sourceTree = "<group>"; };
+		68DD7E6780E4C9A540371274F4A1B3D3 /* libPods-UIBezierPath-RoundedPolygon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIBezierPath-RoundedPolygon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8C59FF07123CC9DFBB550106DE9DCB91 /* Pods-UIBezierPath-RoundedPolygon-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIBezierPath-RoundedPolygon-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D5A6FB0419AF2DFD80F24510953F642 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A38230825F2EEAC05F810367C8A59423 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB6A753C25AAD443A84C069AF0BD00AD /* UIBezierPath-RoundedPolygon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath-RoundedPolygon-prefix.pch"; sourceTree = "<group>"; };
+		C67B552EC9A1D5CEDB7635290EE483C0 /* libUIBezierPath-RoundedPolygon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIBezierPath-RoundedPolygon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E883CEC12C8004EEEA1B4A2C84322D /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DC0610827C144DAA1D537F353EE8AFC2 /* Pods-UIBezierPath-RoundedPolygon-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIBezierPath-RoundedPolygon-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF424FE0ED5868B36C8D91C9A4823CA3 /* Pods-UIBezierPath-RoundedPolygon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIBezierPath-RoundedPolygon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		358EE5697A76F36777E587CE /* Frameworks */ = {
+		27090E344EEFD29F0F63E8954D0D0692 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF27924A0C8B6355B65C4F826E147915 /* Foundation.framework in Frameworks */,
+				BDC7256A5F1138F242534D0B073AC025 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		420D29196141F5366C70D2F5 /* Frameworks */ = {
+		789FBD7F6F0A93713422A52E95AED90E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14047CF356FBDD33756FBF32 /* Foundation.framework in Frameworks */,
+				8677EC7CF50A50288E6497FC2AAB763A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42ED00F60EE77B9A9CF82AEE /* Frameworks */ = {
+		F40A3250A6EE27C3298E0FF724D9C8CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4AAB8EE1381C77B12C8D20D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CDDED16BD1C82AAFF06D34DA /* Foundation.framework in Frameworks */,
-				15C54CC916ECFB5B4EE9F5D6 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B304F7A1E7351D7008798DEC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				339399D343D36CD111F1F129 /* Foundation.framework in Frameworks */,
-				BDC38335B008D48AC311FD49 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C279DA3F75702CA359551353 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1C5AF9E921247D1A68116C36 /* Foundation.framework in Frameworks */,
+				3CA3B80A757DFA43E0AFEA5EA022C2FC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		203DA03C610598794835152D /* Pods-Tests */ = {
+		4065C2DFD92A86F9D1B17D8FB5106A7B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				62832EF0876CFED4695188A4 /* Pods-Tests-acknowledgements.markdown */,
-				06E2FA89BA01B4B2F4F00F40 /* Pods-Tests-acknowledgements.plist */,
-				0D75533370BE96358AEA98E1 /* Pods-Tests-dummy.m */,
-				BBE7B5321DE48FF14FD52221 /* Pods-Tests-environment.h */,
-				3A4ED5C48D62F2C14681C355 /* Pods-Tests-resources.sh */,
-				2C00B2EC7388D5BA627D85F3 /* Pods-Tests.debug.xcconfig */,
-				42DE415957409B10296FB2F5 /* Pods-Tests.release.xcconfig */,
+				B1265491A6A6DD87AC085755D9B5478F /* Classes */,
 			);
-			name = "Pods-Tests";
-			path = "Target Support Files/Pods-Tests";
+			path = Pod;
 			sourceTree = "<group>";
 		};
-		3B14B256C9D9D01CBDDA99F7 /* Targets Support Files */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				203DA03C610598794835152D /* Pods-Tests */,
-				9AD00CA8BDB254575752572C /* Pods-UIBezierPath-RoundedPolygon */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5239C33BDDCB54A2C5AB870A /* UIBezierPath-RoundedPolygon */ = {
-			isa = PBXGroup;
-			children = (
-				E599A05B24BFB9C4CD0D5814 /* Pod */,
-				FA5A4EB188ACAAD5125D276B /* Support Files */,
-			);
-			name = "UIBezierPath-RoundedPolygon";
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5BC956FC074B81557C757810 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3F7759115AA167DF1D1F9F78 /* UIBezierPath-RoundedPolygon.bundle */,
-				E31E39E66494543E812110EF /* UIBezierPath-RoundedPolygon.bundle */,
-				AD3C9D3425E4D98DFEF934BA /* libPods-Tests.a */,
-				6BF34F95E899AAD83D380D81 /* libPods-Tests-UIBezierPath-RoundedPolygon.a */,
-				D43C2E1FF196A3F93C816B67 /* libPods-UIBezierPath-RoundedPolygon.a */,
-				362BBA5FE4F5A365EAEC906E /* libPods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		68032C100CFE10E3191A8E5C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5239C33BDDCB54A2C5AB870A /* UIBezierPath-RoundedPolygon */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6D2A5B3E6E6A8096A676B12C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B13260119C9F2003E88AEBB9 /* iOS */,
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9AD00CA8BDB254575752572C /* Pods-UIBezierPath-RoundedPolygon */ = {
+		5A2C7E242122F5A8E5CCEFE40DA170ED /* Pods-UIBezierPath-RoundedPolygon */ = {
 			isa = PBXGroup;
 			children = (
-				95A1AC3F4CF3BC1F18C7009E /* Pods-UIBezierPath-RoundedPolygon-acknowledgements.markdown */,
-				A575DD6B74264BE0E803EE61 /* Pods-UIBezierPath-RoundedPolygon-acknowledgements.plist */,
-				74144F510158A1CE7C43DCE5 /* Pods-UIBezierPath-RoundedPolygon-dummy.m */,
-				0C737B7E356A2FD164C774D6 /* Pods-UIBezierPath-RoundedPolygon-environment.h */,
-				CA47F40DD27172F9988C15CC /* Pods-UIBezierPath-RoundedPolygon-resources.sh */,
-				17B5AA4959A68AE021C1BBC4 /* Pods-UIBezierPath-RoundedPolygon.debug.xcconfig */,
-				DCFE3132D8ED85D0BBAF571E /* Pods-UIBezierPath-RoundedPolygon.release.xcconfig */,
+				3514943027842633C9FDFBDFD488AC7A /* Pods-UIBezierPath-RoundedPolygon-acknowledgements.markdown */,
+				DC0610827C144DAA1D537F353EE8AFC2 /* Pods-UIBezierPath-RoundedPolygon-acknowledgements.plist */,
+				33A6EC7A590ED24145316F8D54359365 /* Pods-UIBezierPath-RoundedPolygon-dummy.m */,
+				8C59FF07123CC9DFBB550106DE9DCB91 /* Pods-UIBezierPath-RoundedPolygon-frameworks.sh */,
+				3B04D82ADAF989E93DF30CA8F63CFEAE /* Pods-UIBezierPath-RoundedPolygon-resources.sh */,
+				DF424FE0ED5868B36C8D91C9A4823CA3 /* Pods-UIBezierPath-RoundedPolygon.debug.xcconfig */,
+				3022D28E29F621ACDB1C15BB02CE85A1 /* Pods-UIBezierPath-RoundedPolygon.release.xcconfig */,
 			);
 			name = "Pods-UIBezierPath-RoundedPolygon";
 			path = "Target Support Files/Pods-UIBezierPath-RoundedPolygon";
 			sourceTree = "<group>";
 		};
-		A39FD846406C4E43FB922E19 /* Classes */ = {
+		6BB0096F7D2803700EFD6AD57902628F /* Pods-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				41550612A3026149FE1A734A /* UIBezierPath+RoundedPolygon.h */,
-				C8806D6AB8145A6BDA555626 /* UIBezierPath+RoundedPolygon.m */,
+				A38230825F2EEAC05F810367C8A59423 /* Pods-Tests-acknowledgements.markdown */,
+				250F97BFBEC240C3FE28E463D4B2F374 /* Pods-Tests-acknowledgements.plist */,
+				31EE15B1725F6C8B63C6732B7E6C2EC9 /* Pods-Tests-dummy.m */,
+				D5E883CEC12C8004EEEA1B4A2C84322D /* Pods-Tests-frameworks.sh */,
+				4733B44DD5CC2817C891B8210261C57B /* Pods-Tests-resources.sh */,
+				9D5A6FB0419AF2DFD80F24510953F642 /* Pods-Tests.debug.xcconfig */,
+				57109E18655D0EE19F399DC5C369CCEE /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		7655375F3F39761A87AD697AE5980E0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53E8524258CA17D4F51F0AE8DA0FE90A /* libPods-Tests.a */,
+				68DD7E6780E4C9A540371274F4A1B3D3 /* libPods-UIBezierPath-RoundedPolygon.a */,
+				C67B552EC9A1D5CEDB7635290EE483C0 /* libUIBezierPath-RoundedPolygon.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77ED5391DCFE50DD73A1350E6A04568D /* UIBezierPath-RoundedPolygon */ = {
+			isa = PBXGroup;
+			children = (
+				4065C2DFD92A86F9D1B17D8FB5106A7B /* Pod */,
+				819F60E3441FF689FDE1F4345F82ACEE /* Support Files */,
+			);
+			name = "UIBezierPath-RoundedPolygon";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E08A279237D63035A89F8FDBA47A0A67 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				7655375F3F39761A87AD697AE5980E0D /* Products */,
+				FEBBB1CA5432AC7DDBCFA0A47E2595D6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		819F60E3441FF689FDE1F4345F82ACEE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E77F0680EBEF0947AEDE200CB78902A /* UIBezierPath-RoundedPolygon.xcconfig */,
+				411C7B5BBF9F5E0FFD81118F67ED1D09 /* UIBezierPath-RoundedPolygon-dummy.m */,
+				BB6A753C25AAD443A84C069AF0BD00AD /* UIBezierPath-RoundedPolygon-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UIBezierPath-RoundedPolygon";
+			sourceTree = "<group>";
+		};
+		B1265491A6A6DD87AC085755D9B5478F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4272B9FDED588905C55F5473FF98D439 /* UIBezierPath+RoundedPolygon.h */,
+				657631E8317EA8B77CC332DE5D6D9EBF /* UIBezierPath+RoundedPolygon.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		B13260119C9F2003E88AEBB9 /* iOS */ = {
+		E08A279237D63035A89F8FDBA47A0A67 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				34992B1FD1BF18AD55FCD3F0 /* Foundation.framework */,
-				4F0F6B9C081CF50AC7C50925 /* UIKit.framework */,
+				77ED5391DCFE50DD73A1350E6A04568D /* UIBezierPath-RoundedPolygon */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E599A05B24BFB9C4CD0D5814 /* Pod */ = {
+		FEBBB1CA5432AC7DDBCFA0A47E2595D6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A39FD846406C4E43FB922E19 /* Classes */,
+				6BB0096F7D2803700EFD6AD57902628F /* Pods-Tests */,
+				5A2C7E242122F5A8E5CCEFE40DA170ED /* Pods-UIBezierPath-RoundedPolygon */,
 			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		FA5A4EB188ACAAD5125D276B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7AE61BB509A9A3F01718BF26 /* Pods-Tests-UIBezierPath-RoundedPolygon.xcconfig */,
-				F65C3AF4017FAE89239FA5B6 /* Pods-Tests-UIBezierPath-RoundedPolygon-Private.xcconfig */,
-				AD1FC0E7617BFB28024E75E5 /* Pods-Tests-UIBezierPath-RoundedPolygon-dummy.m */,
-				07EE4FD62D2374ADCBAA78BF /* Pods-Tests-UIBezierPath-RoundedPolygon-prefix.pch */,
-				8E1D0359CF6625B72B9B7C6F /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon.xcconfig */,
-				9052A4941CD0A7545A94CF8D /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-Private.xcconfig */,
-				73F27D2CCC3426D782459902 /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-dummy.m */,
-				E3875044D9EE32F0D4E544CA /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-Tests-UIBezierPath-RoundedPolygon";
-			sourceTree = "<group>";
-		};
-		FA5C05515CA15925D0E505F8 = {
-			isa = PBXGroup;
-			children = (
-				C12DA132C887C6DDF88646BB /* Podfile */,
-				68032C100CFE10E3191A8E5C /* Development Pods */,
-				6D2A5B3E6E6A8096A676B12C /* Frameworks */,
-				5BC956FC074B81557C757810 /* Products */,
-				3B14B256C9D9D01CBDDA99F7 /* Targets Support Files */,
-			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		00D5A5A38DA6E5C96D41026B /* Headers */ = {
+		9A0549060EF928F4385B228CEEF5D5A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1822289A76F4B1051423379 /* UIBezierPath+RoundedPolygon.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		673C12CDE32D9E1CF379D88F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				36C3CD6DECD6A679F6E79425 /* UIBezierPath+RoundedPolygon.h in Headers */,
+				6446C6C6B964A80856C2515B00518DA0 /* UIBezierPath+RoundedPolygon.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		36B35EA1EC013D993ECCACAC /* Pods-Tests */ = {
+		7D62790B8481D10A912C52A69EB63A1D /* Pods-UIBezierPath-RoundedPolygon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8040CF6456474EAC0AF34691 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildConfigurationList = 1497A5E1976823F07B0381182D625FBE /* Build configuration list for PBXNativeTarget "Pods-UIBezierPath-RoundedPolygon" */;
 			buildPhases = (
-				D961893589016271DC270C01 /* Sources */,
-				C279DA3F75702CA359551353 /* Frameworks */,
+				030F4CFDC28E7FE1B1CD71075259DA2C /* Sources */,
+				F40A3250A6EE27C3298E0FF724D9C8CF /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EA3E725B5E013041E486845B /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests";
-			productName = "Pods-Tests";
-			productReference = AD3C9D3425E4D98DFEF934BA /* libPods-Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		6CB9AA6BC5C780475A64E977 /* Pods-Tests-UIBezierPath-RoundedPolygon */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7E181AEFD024ADC4AF27208A /* Build configuration list for PBXNativeTarget "Pods-Tests-UIBezierPath-RoundedPolygon" */;
-			buildPhases = (
-				89D9B1A341973646DA58DC70 /* Sources */,
-				B304F7A1E7351D7008798DEC /* Frameworks */,
-				673C12CDE32D9E1CF379D88F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F173C3EC19AFCCE575B1E16F /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests-UIBezierPath-RoundedPolygon";
-			productName = "Pods-Tests-UIBezierPath-RoundedPolygon";
-			productReference = 6BF34F95E899AAD83D380D81 /* libPods-Tests-UIBezierPath-RoundedPolygon.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		87751F64690D21CD38602D6A /* Pods-UIBezierPath-RoundedPolygon */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7295955D384C5C28DC61B118 /* Build configuration list for PBXNativeTarget "Pods-UIBezierPath-RoundedPolygon" */;
-			buildPhases = (
-				6D6939D85777443313399D25 /* Sources */,
-				420D29196141F5366C70D2F5 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BE2729EFB694F3F0EAD426FC /* PBXTargetDependency */,
+				414961757069456716CFFCBE4FE584A5 /* PBXTargetDependency */,
 			);
 			name = "Pods-UIBezierPath-RoundedPolygon";
 			productName = "Pods-UIBezierPath-RoundedPolygon";
-			productReference = D43C2E1FF196A3F93C816B67 /* libPods-UIBezierPath-RoundedPolygon.a */;
+			productReference = 68DD7E6780E4C9A540371274F4A1B3D3 /* libPods-UIBezierPath-RoundedPolygon.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D3294FCDADF4BB93D7C9BE3F /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon */ = {
+		C43F0824D712754D565D42E578F56785 /* UIBezierPath-RoundedPolygon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2C02CA163DFEA5050F083B0 /* Build configuration list for PBXNativeTarget "Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon" */;
+			buildConfigurationList = 06A253F3C77F95B041F765B36B91F640 /* Build configuration list for PBXNativeTarget "UIBezierPath-RoundedPolygon" */;
 			buildPhases = (
-				E4C719DF759C31FC71430544 /* Sources */,
-				A4AAB8EE1381C77B12C8D20D /* Frameworks */,
-				00D5A5A38DA6E5C96D41026B /* Headers */,
+				87DC7787C88B500F17AB9A316B684AB4 /* Sources */,
+				27090E344EEFD29F0F63E8954D0D0692 /* Frameworks */,
+				9A0549060EF928F4385B228CEEF5D5A6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6F656B733D8CC9C0313A70EF /* PBXTargetDependency */,
 			);
-			name = "Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon";
-			productName = "Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon";
-			productReference = 362BBA5FE4F5A365EAEC906E /* libPods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon.a */;
+			name = "UIBezierPath-RoundedPolygon";
+			productName = "UIBezierPath-RoundedPolygon";
+			productReference = C67B552EC9A1D5CEDB7635290EE483C0 /* libUIBezierPath-RoundedPolygon.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		F3C0084F9C7D99CFDC0FBA3A /* Pods-Tests-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon */ = {
+		F129564E8C8EA935DC09C87241A72405 /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A774F890CE341D7484D82151 /* Build configuration list for PBXNativeTarget "Pods-Tests-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon" */;
+			buildConfigurationList = 79DC7F3B4381B49C1D193BB2C8BCEA82 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				18647C52D6305FA134B1A1CA /* Sources */,
-				358EE5697A76F36777E587CE /* Frameworks */,
-				667D5D4528AE293EA9044AFF /* Resources */,
+				CBC9E2CE432D62A5827FC761C2AB9EA8 /* Sources */,
+				789FBD7F6F0A93713422A52E95AED90E /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				598E0CB7CAB210A4838BA295B9ADCCB3 /* PBXTargetDependency */,
 			);
-			name = "Pods-Tests-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon";
-			productName = "Pods-Tests-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon";
-			productReference = E31E39E66494543E812110EF /* UIBezierPath-RoundedPolygon.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		F5AF636C0F6A78986E8F2B6B /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D5B4B48D878E7F958063AB7C /* Build configuration list for PBXNativeTarget "Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon" */;
-			buildPhases = (
-				EFA8626149ECA835535B5C81 /* Sources */,
-				42ED00F60EE77B9A9CF82AEE /* Frameworks */,
-				0E5639375CA819FBE681051E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon";
-			productName = "Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon";
-			productReference = 3F7759115AA167DF1D1F9F78 /* UIBezierPath-RoundedPolygon.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 53E8524258CA17D4F51F0AE8DA0FE90A /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF679E3691956B3F88E7EAD3 /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
 			};
-			buildConfigurationList = 6433F9007FA2F0E15206A5F4 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = FA5C05515CA15925D0E505F8;
-			productRefGroup = 5BC956FC074B81557C757810 /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7655375F3F39761A87AD697AE5980E0D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36B35EA1EC013D993ECCACAC /* Pods-Tests */,
-				6CB9AA6BC5C780475A64E977 /* Pods-Tests-UIBezierPath-RoundedPolygon */,
-				F3C0084F9C7D99CFDC0FBA3A /* Pods-Tests-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon */,
-				87751F64690D21CD38602D6A /* Pods-UIBezierPath-RoundedPolygon */,
-				D3294FCDADF4BB93D7C9BE3F /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon */,
-				F5AF636C0F6A78986E8F2B6B /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon */,
+				F129564E8C8EA935DC09C87241A72405 /* Pods-Tests */,
+				7D62790B8481D10A912C52A69EB63A1D /* Pods-UIBezierPath-RoundedPolygon */,
+				C43F0824D712754D565D42E578F56785 /* UIBezierPath-RoundedPolygon */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		0E5639375CA819FBE681051E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		667D5D4528AE293EA9044AFF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		18647C52D6305FA134B1A1CA /* Sources */ = {
+		030F4CFDC28E7FE1B1CD71075259DA2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E35212CA589BB600D2A478C789D28A /* Pods-UIBezierPath-RoundedPolygon-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D6939D85777443313399D25 /* Sources */ = {
+		87DC7787C88B500F17AB9A316B684AB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E22B035341039DB63436DF2F /* Pods-UIBezierPath-RoundedPolygon-dummy.m in Sources */,
+				78F345E0D2AD67F73690996F6D5F3188 /* UIBezierPath+RoundedPolygon.m in Sources */,
+				9EFF22B0D35F694CD1241C164862AB09 /* UIBezierPath-RoundedPolygon-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89D9B1A341973646DA58DC70 /* Sources */ = {
+		CBC9E2CE432D62A5827FC761C2AB9EA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1AC2C1BB39A214AAEE3E9FD /* Pods-Tests-UIBezierPath-RoundedPolygon-dummy.m in Sources */,
-				5D0F6E5AEA88006702033EF7 /* UIBezierPath+RoundedPolygon.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D961893589016271DC270C01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0E21EE78B77DFF9A182FB8C4 /* Pods-Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E4C719DF759C31FC71430544 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C19330378A8549AC5079AB7 /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-dummy.m in Sources */,
-				5BA9C8B8D280D6450CDB94CC /* UIBezierPath+RoundedPolygon.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EFA8626149ECA835535B5C81 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7AA93A5E9126B1822E942A0B46CC2667 /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6F656B733D8CC9C0313A70EF /* PBXTargetDependency */ = {
+		414961757069456716CFFCBE4FE584A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon";
-			target = F5AF636C0F6A78986E8F2B6B /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon */;
-			targetProxy = 51C2728422045CF50A7BFAED /* PBXContainerItemProxy */;
+			name = "UIBezierPath-RoundedPolygon";
+			target = C43F0824D712754D565D42E578F56785 /* UIBezierPath-RoundedPolygon */;
+			targetProxy = 3ECF6E1C459B2A25BED8F53F09C93550 /* PBXContainerItemProxy */;
 		};
-		BE2729EFB694F3F0EAD426FC /* PBXTargetDependency */ = {
+		598E0CB7CAB210A4838BA295B9ADCCB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon";
-			target = D3294FCDADF4BB93D7C9BE3F /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon */;
-			targetProxy = 0451F5E3D6DC2ECA5ECCBB5F /* PBXContainerItemProxy */;
-		};
-		EA3E725B5E013041E486845B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-UIBezierPath-RoundedPolygon";
-			target = 6CB9AA6BC5C780475A64E977 /* Pods-Tests-UIBezierPath-RoundedPolygon */;
-			targetProxy = 9970A1631010BC215C166EEF /* PBXContainerItemProxy */;
-		};
-		F173C3EC19AFCCE575B1E16F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon";
-			target = F3C0084F9C7D99CFDC0FBA3A /* Pods-Tests-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon */;
-			targetProxy = 4557D2379DB22B075B7CAEC6 /* PBXContainerItemProxy */;
+			name = "UIBezierPath-RoundedPolygon";
+			target = C43F0824D712754D565D42E578F56785 /* UIBezierPath-RoundedPolygon */;
+			targetProxy = 773B25F26AF3BF26959CAD41EE6AFB66 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E90C307AEDA05AF2AF5F9A1 /* Debug */ = {
+		137711F9B2E8960CD8ECD00D8FA7132F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C00B2EC7388D5BA627D85F3 /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = DF424FE0ED5868B36C8D91C9A4823CA3 /* Pods-UIBezierPath-RoundedPolygon.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		1034085603DFA3321DB8988D /* Debug */ = {
+		34744CF41776AA2B51E3C0B1C8F4E756 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57109E18655D0EE19F399DC5C369CCEE /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "UIBezierPath-RoundedPolygon";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		29AAD84E741655FBBC2EB4B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17B5AA4959A68AE021C1BBC4 /* Pods-UIBezierPath-RoundedPolygon.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		35247BE942E0A0DE5B5895E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCFE3132D8ED85D0BBAF571E /* Pods-UIBezierPath-RoundedPolygon.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		3CE33EA6F900BC0C29BA940E /* Release */ = {
+		4EE7037F23E6F039BBA79D4FD7A8E844 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3022D28E29F621ACDB1C15BB02CE85A1 /* Pods-UIBezierPath-RoundedPolygon.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "UIBezierPath-RoundedPolygon";
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		4CADA2BCE4E688AF2BCF4D80 /* Debug */ = {
+		CF64B8066D931615882DBB19B97F4B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E77F0680EBEF0947AEDE200CB78902A /* UIBezierPath-RoundedPolygon.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIBezierPath-RoundedPolygon/UIBezierPath-RoundedPolygon-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D0DE8B17B830046B05E8157C0766D7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E77F0680EBEF0947AEDE200CB78902A /* UIBezierPath-RoundedPolygon.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIBezierPath-RoundedPolygon/UIBezierPath-RoundedPolygon-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D1DF5D16D790F11CEA13F239461602C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -608,15 +481,22 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -627,76 +507,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		84D47E5A2C9FEE9D561EDF86 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F65C3AF4017FAE89239FA5B6 /* Pods-Tests-UIBezierPath-RoundedPolygon-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-UIBezierPath-RoundedPolygon/Pods-Tests-UIBezierPath-RoundedPolygon-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		9D2120D71C8ABAAA7A08E816 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "UIBezierPath-RoundedPolygon";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		A9FCDB88CC05452B27443C1E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F65C3AF4017FAE89239FA5B6 /* Pods-Tests-UIBezierPath-RoundedPolygon-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-UIBezierPath-RoundedPolygon/Pods-Tests-UIBezierPath-RoundedPolygon-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		B295AE8D811A264AFDBDD579 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9052A4941CD0A7545A94CF8D /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon/Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		B4679A041F066410E0229F5C /* Release */ = {
+		F9248D5D3503D3DE930856DB328D8ACD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -706,64 +529,53 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C67E2B5B7A9E1C3476EC5214 /* Release */ = {
+		F9BC1330BA8783B1BC748678B1A404FA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42DE415957409B10296FB2F5 /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = 9D5A6FB0419AF2DFD80F24510953F642 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		D446E815027D8B1E193C1481 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "UIBezierPath-RoundedPolygon";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		ED8CA826AA677FA4FF277431 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9052A4941CD0A7545A94CF8D /* Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon/Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -773,70 +585,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6433F9007FA2F0E15206A5F4 /* Build configuration list for PBXProject "Pods" */ = {
+		06A253F3C77F95B041F765B36B91F640 /* Build configuration list for PBXNativeTarget "UIBezierPath-RoundedPolygon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CADA2BCE4E688AF2BCF4D80 /* Debug */,
-				B4679A041F066410E0229F5C /* Release */,
+				D0DE8B17B830046B05E8157C0766D7F3 /* Debug */,
+				CF64B8066D931615882DBB19B97F4B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7295955D384C5C28DC61B118 /* Build configuration list for PBXNativeTarget "Pods-UIBezierPath-RoundedPolygon" */ = {
+		1497A5E1976823F07B0381182D625FBE /* Build configuration list for PBXNativeTarget "Pods-UIBezierPath-RoundedPolygon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29AAD84E741655FBBC2EB4B8 /* Debug */,
-				35247BE942E0A0DE5B5895E7 /* Release */,
+				137711F9B2E8960CD8ECD00D8FA7132F /* Debug */,
+				4EE7037F23E6F039BBA79D4FD7A8E844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E181AEFD024ADC4AF27208A /* Build configuration list for PBXNativeTarget "Pods-Tests-UIBezierPath-RoundedPolygon" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9FCDB88CC05452B27443C1E /* Debug */,
-				84D47E5A2C9FEE9D561EDF86 /* Release */,
+				D1DF5D16D790F11CEA13F239461602C5 /* Debug */,
+				F9248D5D3503D3DE930856DB328D8ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8040CF6456474EAC0AF34691 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		79DC7F3B4381B49C1D193BB2C8BCEA82 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E90C307AEDA05AF2AF5F9A1 /* Debug */,
-				C67E2B5B7A9E1C3476EC5214 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A774F890CE341D7484D82151 /* Build configuration list for PBXNativeTarget "Pods-Tests-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1034085603DFA3321DB8988D /* Debug */,
-				3CE33EA6F900BC0C29BA940E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D2C02CA163DFEA5050F083B0 /* Build configuration list for PBXNativeTarget "Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ED8CA826AA677FA4FF277431 /* Debug */,
-				B295AE8D811A264AFDBDD579 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D5B4B48D878E7F958063AB7C /* Build configuration list for PBXNativeTarget "Pods-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon-UIBezierPath-RoundedPolygon" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D446E815027D8B1E193C1481 /* Debug */,
-				9D2120D71C8ABAAA7A08E816 /* Release */,
+				F9BC1330BA8783B1BC748678B1A404FA /* Debug */,
+				34744CF41776AA2B51E3C0B1C8F4E756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DF679E3691956B3F88E7EAD3 /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }
