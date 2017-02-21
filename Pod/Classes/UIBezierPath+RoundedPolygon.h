@@ -33,6 +33,6 @@
  */
 @interface UIBezierPath (RoundedPolygon)
 
-- (void) addPointsAsRoundedPolygon:(NSArray*)points withCornerRadius:(CGFloat)cornerRadius;
+- (void) addPointsAsRoundedPolygon:(nonnull NSArray*)points withCornerRadius:(CGFloat)cornerRadius;
 
 @end
